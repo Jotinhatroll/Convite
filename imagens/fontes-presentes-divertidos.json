@@ -1,0 +1,110 @@
+[
+  {
+    "id": "50-reais",
+    "title": "Toma aqui uns 50 reais",
+    "value": 50,
+    "url": "https://anapaulaevinicius.vercel.app/_next/static/media/50Reais.d136bf58.webp",
+    "source": "https://anapaulaevinicius.vercel.app/presentes",
+    "alt": "Variação do meme de 50 reais",
+    "file": "imagens/divertido-50-reais.webp"
+  },
+  {
+    "id": "so-para-nao-dizer",
+    "title": "Só para não dizer que eu não dei nada",
+    "value": 100,
+    "url": "https://i0.statig.com.br/bancodeimagens/3h/hm/ir/3hhmir40rbfwf1zq0nscjeoro.jpg",
+    "source": "https://economia.ig.com.br/2018-11-23/memes-black-friday.html",
+    "alt": "Meme do desconto",
+    "file": "imagens/divertido-so-para-nao-dizer.jpg"
+  },
+  {
+    "id": "lenco-noiva",
+    "title": "Lenço para a noiva não borrar a maquiagem",
+    "value": 200,
+    "url": "https://anapaulaevinicius.vercel.app/_next/static/media/borrarMaquiagem.0c84be5b.webp",
+    "source": "https://anapaulaevinicius.vercel.app/presentes",
+    "alt": "Noiva enxugando as lágrimas",
+    "file": "imagens/divertido-lenco-noiva.webp"
+  },
+  {
+    "id": "calca",
+    "title": "Uma calça para uma jovem de 16 anos",
+    "value": 300,
+    "url": "https://i.ytimg.com/vi/cuFH4E4SLmI/hqdefault.jpg",
+    "source": "https://oimparcial.com.br/entretenimento-e-cultura/2018/12/6-memes-maranhenses-que-quase-todo-mundo-ja-viu/2/",
+    "alt": "Cena da entrevista sobre a calça",
+    "file": "imagens/divertido-calca.jpg"
+  },
+  {
+    "id": "buque",
+    "title": "Aumente suas chances de pegar o buquê",
+    "value": 400,
+    "url": "https://cdn.correiodoestado.com.br/img/c/920/615/dn_arquivo/2024/05/noivas-em-guerra.jpg",
+    "source": "https://correiodoestado.com.br/correio-b/confira-o-filme-que-vai-passar-na-sessao-da-tarde-de-hoje-2005/430520/",
+    "alt": "Brincadeira com o buquê",
+    "file": "imagens/divertido-buque.jpg"
+  },
+  {
+    "id": "buffet",
+    "title": "Primeiro lugar na fila do buffet",
+    "value": 500,
+    "url": "https://ru.wikifur.com/w/images/7/72/Alf.jpg",
+    "source": "https://ru.wikifur.com/wiki/Альф",
+    "alt": "Meme da fila do buffet",
+    "file": "imagens/divertido-buffet.jpg"
+  },
+  {
+    "id": "cabelo",
+    "title": "1 ano de corte de cabelo do noivo",
+    "value": 600,
+    "url": "https://i.pinimg.com/736x/50/8c/70/508c7038a5c964e28b57e86eea291661.jpg",
+    "source": "https://www.pinterest.com/pin/12033123979188760/",
+    "alt": "Corte de cabelo de Ronaldo na Copa de 2002",
+    "file": "imagens/divertido-cabelo.jpg"
+  },
+  {
+    "id": "psicologo",
+    "title": "Psicólogo para os noivos não surtarem nos preparativos",
+    "value": 700,
+    "url": "https://i.pinimg.com/736x/71/3e/99/713e9967eecfefeac94e461e6f18a348.jpg",
+    "source": "https://www.pinterest.com/pin/79446380915109890/",
+    "alt": "Meme de reação aos preparativos (imagem alternativa)",
+    "file": "imagens/divertido-psicologo.jpg"
+  },
+  {
+    "id": "boletos",
+    "title": "Ajuda para pagar os boletos do casamento",
+    "value": 800,
+    "url": "https://i.pinimg.com/564x/7e/f9/08/7ef90827dccdd3174ddabb403641c98e.jpg",
+    "source": "https://www.pinterest.com/pin/image-in-memes-collection-by-magic-on-we-heart-it--910641987134723935/",
+    "alt": "Gretchen com a mão na testa (imagem alternativa)",
+    "file": "imagens/divertido-boletos.jpg"
+  },
+  {
+    "id": "convidado",
+    "title": "Levar alguém que não foi convidado",
+    "value": 900,
+    "url": "https://luanadeyse.wordpress.com/wp-content/uploads/2019/07/cfb_961724367855595945565983.jpg",
+    "source": "https://luanadeyse.wordpress.com/2020/03/30/plaquinhas-de-convidado-nao-convida-e-outras/",
+    "alt": "Convidado não convida",
+    "file": "imagens/divertido-convidado.jpg"
+  },
+  {
+    "id": "dois-empregos",
+    "title": "Claro que posso pagar esse presente, meu marido tem dois empregos",
+    "value": 1000,
+    "url": "https://i.pinimg.com/736x/b6/5f/e6/b65fe67608ff618d53b45ea4eba0cb0b.jpg",
+    "source": "https://br.pinterest.com/",
+    "alt": "Meme de Rochelle",
+    "file": "imagens/divertido-dois-empregos.jpg"
+  },
+  {
+    "id": "melhor-presente",
+    "title": "Dei o melhor presente",
+    "value": 1100,
+    "url": "https://p2.trrsf.com/image/fget/cf/1200/900/middle/images.terra.com/2021/07/15/meme.jpg",
+    "source": "https://gshow.globo.com/Bastidores/noticia/2016/08/cenas-de-ouro-ex-bbb-ana-paula-comenta-cena-inesquecivel-e-imita-bordao-eu-sou-ricaaa.html",
+    "alt": "Meme Eu sou rica",
+    "file": "imagens/divertido-melhor-presente.jpg"
+  }
+]

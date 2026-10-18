@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Convite de casamento">
+  <title>Nosso Casamento | Convite</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="eyebrow">NOSSO GRANDE DIA</p>
+      <h1>Hellen <span>&</span> Jean</h1>
+      <p class="hero-date">10 • 07 • 2027</p>
+      <a href="#confirmacao" class="btn">Confirmar presença</a>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="intro container">
+      <p class="eyebrow">COM MUITO AMOR</p>
+      <h2>Vamos celebrar juntos?</h2>
+      <p>
+        Depois de tantos momentos compartilhados, chegou o dia de começarmos
+        um novo capítulo. Será uma alegria ter você conosco para celebrar
+        esse momento tão especial.
+      </p>
+    </section>
+
+    <section class="details">
+      <div class="container details-grid">
+        <article class="detail-card">
+          <div class="icon">♥</div>
+          <h3>Cerimônia</h3>
+          <p>10 de julho de 2027</p>
+          <p>18h00</p>
+        </article>
+
+        <article class="detail-card">
+          <div class="icon">⌖</div>
+          <h3>Local</h3>
+          <p>Espaço Jardim dos Sonhos</p>
+          <p>Araraquara – SP</p>
+        </article>
+
+        <article class="detail-card">
+          <div class="icon">✦</div>
+          <h3>Recepção</h3>
+          <p>Após a cerimônia</p>
+          <p>Vamos comemorar juntos!</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="story container">
+      <div class="story-text">
+        <p class="eyebrow">NOSSA HISTÓRIA</p>
+        <h2>Um novo começo</h2>
+        <p>
+          Cada história é feita de encontros, escolhas e momentos que ficam
+          para sempre. Agora queremos escrever um novo capítulo ao lado das
+          pessoas que amamos.
+        </p>
+        <p>
+          Sua presença fará parte dessa memória e tornará nosso dia ainda
+          mais especial. ❤️
+        </p>
+      </div>
+      <div class="story-photo">
+        <img src="imagens/nossa-historia-azul.jpg" alt="Jean e Hellen juntos, vestidos de azul" width="900" height="1600">
+      </div>
+    </section>
+
+    <section class="countdown-section">
+      <div class="container">
+        <p class="eyebrow">CONTAGEM REGRESSIVA</p>
+        <h2>Falta pouco para o nosso dia!</h2>
+
+        <div class="countdown" id="countdown">
+          <div><strong id="days">00</strong><span>Dias</span></div>
+          <div><strong id="hours">00</strong><span>Horas</span></div>
+          <div><strong id="minutes">00</strong><span>Minutos</span></div>
+          <div><strong id="seconds">00</strong><span>Segundos</span></div>
+        </div>
+      </div>
+    </section>
+
+    
+
+    <section class="gifts">
+      <div class="container">
+        <p class="eyebrow">COM CARINHO</p>
+        <h2>Lista de presentes</h2>
+        <p>
+          Sua presença já é o nosso maior presente. ❤️
+          Mas, se desejar nos presentear, deixamos algumas opções.
+        </p>
+
+        <div class="gift-grid">
+          <article class="gift-card"> <div class="gift-icon">♥</div> <h3>Lista de Presentes</h3> <p>Escolha um presente para o nosso novo lar.</p> <a href="lista-de-presentes.html" class="outline-btn" target="_blank" rel="noopener">Ver presentes</a> </article>
+
+          <article class="gift-card">
+            <div class="gift-icon">♥</div>
+            <h3>Lua de Mel</h3>
+            <p>Ajude a transformar nossa viagem em uma lembrança inesquecível.</p>
+            <a href="lua-de-mel.html" class="outline-btn" target="_blank" rel="noopener">Presentear</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="confirmacao" class="confirmation container">
+      <p class="eyebrow"></p>
+      <h2>Confirme sua presença</h2>
+      <p class="section-description">
+        Sua presença é o nosso maior presente. Preencha os dados abaixo
+        para nos avisar se estará conosco.
+      </p>
+      <p class="invitation-note">
+        Estamos preparando esse dia com muito carinho e vai ser uma alegria
+        celebrar com você! Como organizamos tudo contando com as pessoas
+        indicadas em cada convite, pedimos com carinho que venha apenas quem
+        foi convidado. E não se esqueça de trazer seu convite individual no
+        dia. Agradecemos pela compreensão! 💜
+      </p>
+
+      <div class="confirmation-card">
+        <form id="rsvpForm">
+          <div class="field">
+            <label for="nome">Nome completo</label>
+            <input type="text" id="nome" name="nome"
+                   placeholder="Digite seu nome" required>
+          </div>
+
+          <div class="field">
+            <label>Você estará presente?</label>
+            <div class="choice-group">
+              <label class="choice">
+                <input type="radio" name="presenca" value="Sim" required>
+                <span>Sim, estarei presente ❤️</span>
+              </label>
+              <label class="choice">
+                <input type="radio" name="presenca" value="Não">
+                <span>Infelizmente não poderei ir</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="field" id="acompanhantesField">
+            <label for="acompanhantes">Quantidade de acompanhantes</label>
+            <select id="acompanhantes" name="acompanhantes">
+              <option value="0">Somente eu</option>
+              <option value="1">1 acompanhante</option>
+              <option value="2">2 acompanhantes</option>
+              <option value="3">3 acompanhantes</option>
+              <option value="4">4 acompanhantes</option>
+              <option value="5">5 acompanhantes</option>
+            </select>
+          </div>
+
+          <div class="field" id="nomesAcompanhantesField">
+            <label for="nomesAcompanhantes">Nome dos acompanhantes</label>
+            <input type="text" id="nomesAcompanhantes"
+                   placeholder="Ex.: Maria e João">
+            <small>Se houver mais de um, separe os nomes por vírgula.</small>
+          </div>
+
+          <div class="field">
+            <label for="mensagem">Mensagem (opcional)</label>
+            <textarea id="mensagem" name="mensagem" rows="4"
+                      placeholder="Deixe uma mensagem para os noivos"></textarea>
+          </div>
+
+          <button type="submit" class="btn full">Confirmar presença</button>
+          <p class="form-note">
+            Nesta versão, a confirmação é salva apenas localmente no navegador.
+          </p>
+          <p id="successMessage" class="success-message"></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="location container">
+      <p class="eyebrow">COMO CHEGAR</p>
+      <h2>Esperamos você!</h2>
+      <p>Espaço Jardim dos Sonhos • Araraquara – SP</p>
+      <a class="btn" href="https://www.google.com/maps" target="_blank" rel="noopener">
+        Abrir no mapa
+      </a>
+    </section>
+
+    
+  </main>
+
+  <footer>
+    <p>Com amor, Jean & Hellen</p>
+    <span>Nos vemos no altar. ❤️</span>
+  </footer>
+
+  <div class="modal" id="giftModal" aria-hidden="true">
+    <div class="modal-content">
+      <button class="close-modal" onclick="closeModal()" aria-label="Fechar">×</button>
+      <p class="eyebrow">UM PRESENTE DE AMOR</p>
+      <h2 id="modalTitle">Presentear</h2>
+      <p>
+        Essa área pode ser configurada depois com Pix, valores de contribuição
+        ou um link para sua lista de presentes.
+      </p>
+      <button class="btn" onclick="closeModal()">Entendi</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Presentes para a lua de mel de Jean & Hellen">
+  <title>Nossa Lua de Mel | Jean &amp; Hellen</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="honeymoon-page">
+  <main>
+    <section class="categoria container honeymoon-gifts" aria-labelledby="honeymoon-title">
+      <h1 id="honeymoon-title" class="titulo-categoria">Nossa Lua de Mel</h1>
+
+      <div class="galeria">
+        <article class="presente">
+          <img src="imagens/passagens.jpg" alt="Ícone de passagem aérea" class="imagem-presente">
+          <h2>Passagens</h2>
+          <div class="gift-actions">
+            <button type="button" data-pix-gift="Lua de Mel: Passagens">Contribuir</button>
+            <button type="button" class="pix-button" data-pix-gift="Lua de Mel: Passagens">Pagar com Pix</button>
+          </div>
+        </article>
+
+        <article class="presente">
+          <img src="imagens/hotel.jpg" alt="Hotel para a viagem de lua de mel" class="imagem-presente">
+          <h2>Hospedagem</h2>
+          <div class="gift-actions">
+            <button type="button" data-pix-gift="Lua de Mel: Hospedagem">Contribuir</button>
+            <button type="button" class="pix-button" data-pix-gift="Lua de Mel: Hospedagem">Pagar com Pix</button>
+          </div>
+        </article>
+
+        <article class="presente">
+          <img src="imagens/jantar.jpg" alt="Jantar romântico à luz de velas" class="imagem-presente">
+          <h2>Jantar romântico</h2>
+          <div class="gift-actions">
+            <button type="button" data-pix-gift="Lua de Mel: Jantar romântico">Contribuir</button>
+            <button type="button" class="pix-button" data-pix-gift="Lua de Mel: Jantar romântico">Pagar com Pix</button>
+          </div>
+        </article>
+
+        <article class="presente">
+          <img src="imagens/passeio.jpg" alt="Passeio de barco em águas tropicais" class="imagem-presente">
+          <h2>Passeio especial</h2>
+          <div class="gift-actions">
+            <button type="button" data-pix-gift="Lua de Mel: Passeio especial">Contribuir</button>
+            <button type="button" class="pix-button" data-pix-gift="Lua de Mel: Passeio especial">Pagar com Pix</button>
+          </div>
+        </article>
+
+        <article class="presente">
+          <img src="imagens/lua-de-mel.jpg" alt="Alianças na areia à beira-mar" class="imagem-presente">
+          <h2>Cota para a Lua de Mel</h2>
+          <div class="gift-actions">
+            <button type="button" data-pix-gift="Lua de Mel: Cota para a Lua de Mel">Contribuir</button>
+            <button type="button" class="pix-button" data-pix-gift="Lua de Mel: Cota para a Lua de Mel">Pagar com Pix</button>
+          </div>
+        </article>
+      </div>
+
+      <nav class="honeymoon-nav" aria-label="Navegação do site">
+        <a href="index.html" class="outline-btn">Voltar à página principal</a>
+        <a href="lista-de-presentes.html" class="outline-btn">Ver lista de presentes</a>
+      </nav>
+    </section>
+  </main>
+
+  <div class="modal gift-reservation-modal" id="giftReservationModal" aria-hidden="true">
+    <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="reservationTitle">
+      <button class="close-modal" type="button" data-close-reservation aria-label="Fechar">×</button>
+      <p class="eyebrow">COM CARINHO</p>
+      <h2 id="reservationTitle">Contribuir com a Lua de Mel</h2>
+      <p id="reservationGiftName"></p>
+      <div class="pix-payment">
+        <img class="pix-qrcode" src="imagens/qrcode-pix.png" alt="QR Code Pix para Jean Vitor dos Santos" width="312" height="312">
+        <p class="pix-recipient">Recebedor: <strong>JEAN VITOR DOS SANTOS</strong></p>
+        <p class="pix-instructions">Escaneie pelo aplicativo do seu banco e digite o valor que deseja contribuir. Confira o recebedor antes de concluir.</p>
+        <label class="reservation-label" for="pixKey">Chave Pix (celular)</label>
+        <input id="pixKey" type="text" value="16981492681" readonly inputmode="tel">
+        <button class="outline-btn" id="copyPixKey" type="button">Copiar chave Pix</button>
+        <a class="pix-download" href="imagens/qrcode-pix.pdf" download>Baixar QR Code em PDF</a>
+        <p class="form-note" id="pixFeedback" role="status" aria-live="polite"></p>
+      </div>
+      <form id="giftReservationForm">
+        <label class="reservation-label" for="reservationGuestName">Seu nome</label>
+        <input id="reservationGuestName" name="nome" type="text" autocomplete="name" placeholder="Digite seu nome" required>
+        <label class="reservation-label" for="pixPaidAmount">Valor que você enviou (R$)</label>
+        <input id="pixPaidAmount" name="valor" type="number" min="0.01" max="999999.99" step="0.01" inputmode="decimal" required>
+        <label class="reservation-label" for="pixGuestMessage">Mensagem para os noivos (opcional)</label>
+        <textarea id="pixGuestMessage" name="mensagem" rows="3" maxlength="500" placeholder="Deixe seu carinho para os noivos ♥"></textarea>
+        <button class="btn full" type="submit" id="reservationSubmit">Já fiz o Pix — avisar no WhatsApp ♥</button>
+        <p class="pix-instructions">Depois de pagar, envie o aviso e anexe o comprovante no WhatsApp. O recebimento será conferido pelos noivos.</p>
+        <p class="form-note" id="reservationFeedback" role="status" aria-live="polite"></p>
+        <a class="outline-btn reservation-whatsapp-link" id="reservationWhatsappLink" href="#" target="_blank" rel="noopener noreferrer" hidden>Continuar no WhatsApp</a>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
